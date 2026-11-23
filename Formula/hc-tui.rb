@@ -1,27 +1,27 @@
 class HcTui < Formula
   desc "Terminal UI for herdr-core: many coding agents in one terminal"
   homepage "https://github.com/BTL00/hc-tui"
-  version "1.0.0"
+  version "1.0.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/BTL00/hc-tui/releases/download/v1.0.0/hc-tui-v1.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d56e7d83ad2f3ec4d7ec2b30a1efec70562cb0ac93bf7c7b90f52a7354bf49c4"
+      url "https://github.com/BTL00/hc-tui/releases/download/v1.0.1/hc-tui-v1.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f84495d8d3df7e4519abb4cf88ba5ade8d0fa36219b44bd4755f075af7e53d04"
     end
     on_intel do
-      url "https://github.com/BTL00/hc-tui/releases/download/v1.0.0/hc-tui-v1.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0ea2b3a41d95f4dbd909e34f297f1d9be055c846d39debfb809e8c558af55f5f"
+      url "https://github.com/BTL00/hc-tui/releases/download/v1.0.1/hc-tui-v1.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "76eda8fa0e8806589c0c148052e9709fb35ef56396048ba6953977e1d00e6c01"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/BTL00/hc-tui/releases/download/v1.0.0/hc-tui-v1.0.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "321306aa1ae6e43b90cef03d5bba0388625bf44e32a252b64d0684bf7c96a487"
+      url "https://github.com/BTL00/hc-tui/releases/download/v1.0.1/hc-tui-v1.0.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "394e673f9405f41c08a2fc985d063322c1d37c1f09efa8e4d683f7745aa76f1c"
     end
     on_intel do
-      url "https://github.com/BTL00/hc-tui/releases/download/v1.0.0/hc-tui-v1.0.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "79cd38bf7a274aae1a09dd181082fb5dc859ab0e33c7a9008d3c0f3d0e1ed487"
+      url "https://github.com/BTL00/hc-tui/releases/download/v1.0.1/hc-tui-v1.0.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "0b825f13544308e04cc3ef318408ba9ad14bb4241b420bdc5c35bccff179855a"
     end
   end
 
